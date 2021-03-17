@@ -1,6 +1,6 @@
 import React, { Component } from "react";
 import { getMovies } from "../services/fakeMovieService";
-import _ from "lodash";
+// import _ from "lodash";
 // import Pagination from "./pagination";
 // import { Paginate } from "../paginate";
 
@@ -25,8 +25,8 @@ class Product extends Component {
   handleAdd = (movie) => {};
 
   render() {
-    const { movies: allMovies, currentPage, pageSize } = this.state;
-    if (this.state.movies.length == 1) return <h1>no movie</h1>;
+    const { movies: allMovies} = this.state;
+    if (this.state.movies.length === 1) return <h1>no movie</h1>;
 
     // const movies = Paginate(allMovies, currentPage, pageSize);
     const movies=allMovies;

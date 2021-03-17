@@ -1,9 +1,9 @@
 import React, { Component } from "react";
 import "./style.css";
-import { Route, BrowserRouter as Router, Switch, Link } from "react-router-dom";
+import { Route, BrowserRouter as Router, Switch} from "react-router-dom";
 import About from "./about";
 import Home from "./home";
-import Feature from "./feature";
+
 import Navbar from "./navbar";
 import Contact from "./contact";
 import Product from "./product";
