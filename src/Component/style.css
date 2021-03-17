@@ -1,0 +1,402 @@
+.home-img {
+  width: 100%;
+}
+.about-img {
+  width: 100%;
+}
+.about-app {
+  height: 70vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  background-size: cover;
+  background-position: center;
+}
+
+.about-img {
+  width: 100%;
+  height: 70vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  background-size: cover;
+  background-position: center;
+}
+.feature {
+  height: 70vh;
+  display: flex;
+  align-items: center;
+  background-size: cover;
+  background-position: center;
+  justify-content: center;
+}
+a {
+  color: black;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  font-weight: 600;
+  text-decoration: none;
+  transition: all ease-in-out 0.2s;
+}
+a:hover {
+  text-decoration: none;
+}
+button {
+  padding: 7px 25px;
+  color: white;
+  border: 0px;
+  background-color: transparent;
+  transition: all ease-in-out 0.9s;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+}
+button:hover {
+  background-color: white;
+  color: black;
+}
+.home-hero {
+  width: 100vw;
+  height: 70vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  background-size: cover;
+  background-position: center;
+  /* background-image: url('/image/abc.jpg'); */
+}
+
+.home-hero button {
+  margin-top: 7px;
+  color: white;
+}
+.home-hero button:hover {
+  color: black;
+}
+
+.home-text {
+  color: white;
+  font-weight: 100;
+  letter-spacing: 4px;
+}
+.world {
+  width: 100vw;
+  height: 70vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  background-position: center;
+  background-color: gray;
+  color: white;
+  font-weight: 100;
+  letter-spacing: 4px;
+}
+
+.building {
+  width: 50vw;
+  background-size: cover;
+  background-position: center;
+  height: 50vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+.building div {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  background-color: rgba(0, 0, 0, 0.253);
+  transition: all ease-in-out 0.2s;
+}
+.building div:hover {
+  background-color: rgba(0, 0, 0, 0.453);
+}
+.building1 {
+  width: 50vw;
+  height: 50vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  background-size: cover;
+  background-position: center;
+}
+.building1 div {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  background-color: rgba(0, 0, 0, 0.253);
+  transition: all ease-in-out 0.2s;
+}
+.building1 div:hover {
+  background-color: rgba(0, 0, 0, 0.453);
+}
+.building h1 {
+  color: cornsilk;
+}
+.building1 h1 {
+  color: cornsilk;
+}
+.product {
+  width: 100vw;
+  background-color: dimgray;
+  height: 10vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.product a {
+  color: white;
+}
+.product a:hover {
+  color: blueviolet;
+}
+.text {
+  width: 100vw;
+  height: 70vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.text3-1 {
+  background-color: black;
+  height: 20vh;
+  color: aliceblue;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+} 
+.text3-1 a{
+
+  color: aliceblue;
+}
+ 
+.text3-1 a:hover {
+  color: blue;
+}
+
+.newText {
+  display: flex;
+}
+.navbar {
+  height: 10vh;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  color: white;
+  background-color: white;
+}
+.text1 {
+  height: 60vh;
+  display: flex;
+
+  background-color: slategray;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  background-size: cover;
+}
+.text1 button {
+  color: black;
+}
+.text2 {
+  flex-basis: 100%;
+  display: flex;
+  height: 50vh;
+  background-color: snow;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.text2 button {
+  color: black;
+}
+.text2 button:hover {
+  color: blue;
+  background-color: black;
+}
+.text3 {
+  flex-basis: 100%;
+  display: flex;
+  height: 100px;
+  background-color: dimgray;
+  justify-content: center;
+
+  align-items: center;
+  flex-direction: column;
+}
+.text3 a {
+  color: white;
+}
+.text3 a:hover {
+  color: blue;
+}
+.footer {
+  display: flex;
+  align-items: center;
+
+  justify-content: space-evenly;
+  height: 50vh;
+  background-color: white;
+}
+
+.start {
+  display: flex;
+  justify-content: start;
+}
+.contact-container1 {
+  width: 100%;
+  height: 80vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-size: cover;
+  color: black;
+  letter-spacing: 3px;
+  font-size: large;
+}
+.contact-container2 {
+  width: 100%;
+  height: 50vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  font-weight: 100;
+  letter-spacing: 4px;
+}
+.contact-container3 {
+  width: 100%;
+  height: 80vh;
+}
+.contact-container4 {
+  width: 100%;
+  height: 80vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  font-weight: 100;
+  letter-spacing: 4px;
+}
+.contact-container5 {
+  display: flex;
+  justify-content: center;
+  justify-content: space-evenly;
+  height: 30vh;
+  background-color: dimgray;
+}
+.contact-container5-1:hover {
+  box-sizing: border-box;
+  color: blue;
+}
+.contact-container5-2:hover {
+  box-sizing: border-box;
+  color: blue;
+}
+.contact-container5-3:hover {
+  box-sizing: border-box;
+  color: blue;
+}
+.contact-container5-4:hover {
+  box-sizing: border-box;
+  color: blue;
+}
+
+.contact-container6 {
+  letter-spacing: 4px;
+  font-weight: 600;
+  height: 20vh;
+  display: flex;
+  justify-content: center;
+  background-color: dimgray;
+  align-items: center;
+}
+.about-container1 {
+  width: 100vw;
+  height: 70vh;
+  background-size: cover;
+  letter-spacing: 4px;
+  font-weight: 600;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: aliceblue;
+
+}
+
+
+.about-container2 {
+  width: 100vw;
+  height: 70vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  letter-spacing: 1px;
+  font-weight: 600;
+}
+.about-container3 {
+  width: 100vw;
+  height: 100vh;
+  background-size: cover;
+}
+.about-container4 {
+  width: 100vw;
+  height: 70vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  letter-spacing: 1px;
+  font-weight: 600;
+}
+.about-container5 {
+  width: 100vw;
+  height: 100vh;
+  background-size: cover;
+}
+.about-container6 {
+  width: 100vw;
+  height: 70vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  letter-spacing: 1px;
+  font-weight: 600;
+}
+.about-container7 {
+  width: 100vw;
+  height: 100vh;
+  background-size: cover;
+}
+.product-block{
+
+display: flex;
+align-items: center;
+justify-content: center;
+flex-direction: column;
+padding: 15px 10px;
+border: 1px solid lightslategray;
+
+
+
+}
+.row button{
+
+  color: aliceblue;
+  background-color: black;
+}
