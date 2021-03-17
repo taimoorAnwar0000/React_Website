@@ -1,8 +1,8 @@
 import React, { Component } from "react";
 import { getMovies } from "../services/fakeMovieService";
 import _ from "lodash";
-import Pagination from "./pagination";
-import { Paginate } from "../paginate";
+// import Pagination from "./pagination";
+// import { Paginate } from "../paginate";
 
 class Product extends Component {
   state = {
@@ -28,8 +28,8 @@ class Product extends Component {
     const { movies: allMovies, currentPage, pageSize } = this.state;
     if (this.state.movies.length == 1) return <h1>no movie</h1>;
 
-    const movies = Paginate(allMovies, currentPage, pageSize);
-    // const movies=allMovies;
+    // const movies = Paginate(allMovies, currentPage, pageSize);
+    const movies=allMovies;
 
     return (
       <div>
@@ -37,21 +37,21 @@ class Product extends Component {
           {movies.map((m) => (
             <div className="col-md-3 p-5">
               <div className=" product-block">
-                <img src="/image/about1.jpg" width="100%" alt="" />
+                <img src={m.image} width="100%" alt="" />
                 <p>{m.title}</p>{" "}
                 <button onClick={() => this.handleDelete(m)}>Delete</button>
-                <button>Add</button>
+                {/* <button>Add</button> */}
               </div>
             </div>
           ))}
         </div>
-        <h1>pages</h1>
-        <Pagination
+        
+        {/* <Pagination
           itemcount={movies.length}
           currentPage={currentPage}
           pageSize={pageSize}
           onPageChange={this.handlePageChange}
-        />
+        /> */}
       </div>
     );
   }

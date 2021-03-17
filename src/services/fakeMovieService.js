@@ -3,6 +3,7 @@
 const movies = [
   {
     _id: "5b21ca3eeb7f6fbccd471815",
+   image:'/image/p1.jpeg',
     title: "Terminator",
     // genre: { _id: "5b21ca3eeb7f6fbccd471818", name: "Action" },
     // numberInStock: 6,
@@ -12,6 +13,7 @@ const movies = [
   },
   {
     _id: "5b21ca3eeb7f6fbccd471816",
+   image:'/image/p2.jpeg',
     title: "Die Hard",
     // genre: { _id: "5b21ca3eeb7f6fbccd471818", name: "Action" },
     // numberInStock: 5,
@@ -19,6 +21,7 @@ const movies = [
   },
   {
     _id: "5b21ca3eeb7f6fbccd471817",
+   image:'/image/p3.jpeg',
     title: "Get Out",
     // genre: { _id: "5b21ca3eeb7f6fbccd471820", name: "Thriller" },
     numberInStock: 8,
@@ -26,6 +29,7 @@ const movies = [
   },
   {
     _id: "5b21ca3eeb7f6fbccd471819",
+   image:'/image/p4.jpeg',
     title: "Trip to Italy",
     // genre: { _id: "5b21ca3eeb7f6fbccd471814", name: "Comedy" },
     // numberInStock: 7,
@@ -33,6 +37,7 @@ const movies = [
   },
   {
     _id: "5b21ca3eeb7f6fbccd47181a",
+   image:'/image/p5.jpeg',
     title: "Airplane",
     // genre: { _id: "5b21ca3eeb7f6fbccd471814", name: "Comedy" },
     // numberInStock: 7,
@@ -40,6 +45,7 @@ const movies = [
   },
   {
     _id: "5b21ca3eeb7f6fbccd47181b",
+   image:'/image/p6.jpeg',
     title: "Wedding Crashers",
     // genre: { _id: "5b21ca3eeb7f6fbccd471814", name: "Comedy" },
     // numberInStock: 7,
@@ -47,6 +53,7 @@ const movies = [
   },
   {
     _id: "5b21ca3eeb7f6fbccd47181e",
+   image:'/image/p7.jpeg',
     title: "Gone Girl",
     // genre: { _id: "5b21ca3eeb7f6fbccd471820", name: "Thriller" },
     numberInStock: 7,
@@ -54,6 +61,7 @@ const movies = [
   },
   {
     _id: "5b21ca3eeb7f6fbccd47181f",
+   image:'/image/p1.jpeg',
     title: "The Sixth Sense",
     // genre: { _id: "5b21ca3eeb7f6fbccd471820", name: "Thriller" },
     numberInStock: 4,
@@ -61,6 +69,7 @@ const movies = [
   },
   {
     _id: "5b21ca3eeb7f6fbccd471821",
+   image:'/image/p1.jpeg',
     title: "The Avengers",
     genre: { _id: "5b21ca3eeb7f6fbccd471818", name: "Action" },
     numberInStock: 7,
