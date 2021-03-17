@@ -10,7 +10,7 @@ class Navbar extends Component {
 <button>Feature</button>
 <button>Product</button>
 <button>Contact Us</button> */}
-        <Link className="navHome" to="/home">
+        <Link className="navHome" to="/">
           Home
         </Link>
         <Link className="navAbout" to="/about">
