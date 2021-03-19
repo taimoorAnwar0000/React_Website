@@ -23,6 +23,9 @@ class Navbar extends Component {
         <Link className="navContact" to="/contact">
           Contact Us
         </Link>
+        <Link className="navBuilding" to="/add">
+          Add Building
+        </Link>
       </div>
     );
 

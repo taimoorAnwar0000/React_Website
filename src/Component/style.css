@@ -400,3 +400,22 @@ border: 1px solid lightslategray;
   color: aliceblue;
   background-color: black;
 }
+.navbar button{
+color: aliceblue;
+background-color: blue;
+
+
+}
+.row img{
+
+height: 25vh;
+
+}
+.AddContainer1{
+
+display: flex;
+justify-content: center;
+flex-direction: column;
+align-items: center;
+
+}

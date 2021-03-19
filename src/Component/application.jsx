@@ -7,6 +7,7 @@ import Home from "./home";
 import Navbar from "./navbar";
 import Contact from "./contact";
 import Product from "./product";
+import AddProduct from "./addproduct";
 class Application extends Component {
   state = {};
   render() {
@@ -21,6 +22,7 @@ class Application extends Component {
             <Route path="/about" component={About} />
             <Route path="/product" component={Product} />
             <Route path="/contact" component={Contact} />
+            <Route path="/add" component={AddProduct} />
 
           </Switch>
         </Router>

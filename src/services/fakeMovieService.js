@@ -4,76 +4,57 @@ const movies = [
   {
     _id: "5b21ca3eeb7f6fbccd471815",
    image:'/image/p1.jpeg',
-    title: "Terminator",
-    // genre: { _id: "5b21ca3eeb7f6fbccd471818", name: "Action" },
-    // numberInStock: 6,
-    dailyRentalRate: 2.5,
-    publishDate: "2018-01-03T19:04:28.809Z",
-    liked: true
+    title: "DreamHouse#1",
+  
+    
   },
   {
     _id: "5b21ca3eeb7f6fbccd471816",
    image:'/image/p2.jpeg',
-    title: "Die Hard",
-    // genre: { _id: "5b21ca3eeb7f6fbccd471818", name: "Action" },
-    // numberInStock: 5,
-    dailyRentalRate: 2.5
+    title: "DreamHouse#2",
+   
   },
   {
     _id: "5b21ca3eeb7f6fbccd471817",
    image:'/image/p3.jpeg',
-    title: "Get Out",
-    // genre: { _id: "5b21ca3eeb7f6fbccd471820", name: "Thriller" },
-    numberInStock: 8,
-    dailyRentalRate: 3.5
+    title: "DreamHouse#3",
+   
   },
   {
     _id: "5b21ca3eeb7f6fbccd471819",
    image:'/image/p4.jpeg',
-    title: "Trip to Italy",
-    // genre: { _id: "5b21ca3eeb7f6fbccd471814", name: "Comedy" },
-    // numberInStock: 7,
-    dailyRentalRate: 3.5
+    title: "DreamHouse#4",
+  
   },
   {
     _id: "5b21ca3eeb7f6fbccd47181a",
    image:'/image/p5.jpeg',
-    title: "Airplane",
-    // genre: { _id: "5b21ca3eeb7f6fbccd471814", name: "Comedy" },
-    // numberInStock: 7,
-    dailyRentalRate: 3.5
+    title: "DreamHouse#5",
+   
   },
   {
     _id: "5b21ca3eeb7f6fbccd47181b",
    image:'/image/p6.jpeg',
-    title: "Wedding Crashers",
-    // genre: { _id: "5b21ca3eeb7f6fbccd471814", name: "Comedy" },
-    // numberInStock: 7,
-    dailyRentalRate: 3.5
+    title: "DreamHouse#6",
+   
   },
   {
     _id: "5b21ca3eeb7f6fbccd47181e",
    image:'/image/p7.jpeg',
-    title: "Gone Girl",
-    // genre: { _id: "5b21ca3eeb7f6fbccd471820", name: "Thriller" },
-    numberInStock: 7,
-    dailyRentalRate: 4.5
+    title: "DreamHouse#7",
+   
   },
   {
     _id: "5b21ca3eeb7f6fbccd47181f",
    image:'/image/p1.jpeg',
-    title: "The Sixth Sense",
-    // genre: { _id: "5b21ca3eeb7f6fbccd471820", name: "Thriller" },
-    numberInStock: 4,
-    dailyRentalRate: 3.5
+    title: "DreamHouse#8",
+    
   },
   {
     _id: "5b21ca3eeb7f6fbccd471821",
    image:'/image/p1.jpeg',
-    title: "The Avengers",
-    genre: { _id: "5b21ca3eeb7f6fbccd471818", name: "Action" },
-    numberInStock: 7,
-    dailyRentalRate: 3.5
+    title: "DreamHouse#9",
+  
   }
 ];
 
@@ -87,11 +68,8 @@ export function getMovie(id) {
 
 export function saveMovie(movie) {
   let movieInDb = movies.find(m => m._id === movie._id) || {};
-  movieInDb.name = movie.name;
-  // movieInDb.genre = genresAPI.genres.find(g => g._id === movie.genreId);
-  movieInDb.numberInStock = movie.numberInStock;
-  movieInDb.dailyRentalRate = movie.dailyRentalRate;
-
+  movieInDb.title = movie.title;
+  movieInDb.image = movie.image;
   if (!movieInDb._id) {
     movieInDb._id = Date.now();
     movies.push(movieInDb);
