@@ -34,8 +34,8 @@ class Product extends Component {
     return (
       <div>
         <div className="row">
-          {movies.map((m) => (
-            <div className="col-md-3 p-5">
+          {movies.map((m,i) => (
+            <div key={i} className="col-md-3 p-5">
               <div className=" product-block">
                 <img src={m.image} width="100%" alt="" />
                 <p>{m.title}</p>{" "}

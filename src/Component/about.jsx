@@ -87,24 +87,24 @@ class About extends Component {
           <button>INQUIRE</button>
         </div>
         <div className="text3">
-          <Link>SUBSCRIBE OUR NEWSLETTER</Link>
+          <Link to="/contact">SUBSCRIBE OUR NEWSLETTER</Link>
         </div>
 
         <div className="footer">
           <div className="start">
             {" "}
-            <Link>NEWS</Link>
+            <Link to="/about">NEWS</Link>
           </div>
           <div className="start">
-            <Link>PRESS</Link>
+            <Link to="/about">PRESS</Link>
           </div>
 
           <div className="start">
-            <Link>WORLD HOUSING</Link>
+            <Link to="/product">WORLD HOUSING</Link>
           </div>
-          <Link>WORLD FINEST REAL ESTATE</Link>
-          <Link>PRIVACY</Link>
-          <Link>TERMS</Link>
+          <Link to="/product">WORLD FINEST REAL ESTATE</Link>
+          <Link to="/about">PRIVACY</Link>
+          <Link to="/about">TERMS</Link>
         </div>
       </div>
     );

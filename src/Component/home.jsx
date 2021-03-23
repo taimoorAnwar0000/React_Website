@@ -66,7 +66,7 @@ class Home extends Component {
         </div>
         <div className="product">
           {" "}
-          <Link> see more product</Link>
+          <Link to="/product"> see more product</Link>
         </div>
         <div className="text">
           {" "}
@@ -75,8 +75,8 @@ class Home extends Component {
           <h6>
             Mondialité is our online gateway to a global dialogue in
             architecture, design, real estate innovation and the
-          </h6>
-          <h6>philosophy of luxury living.</h6>
+         
+          philosophy of luxury living </h6>
         </div>
         <div className="newText">
           
@@ -94,22 +94,22 @@ class Home extends Component {
         </div>
 
         <div className="text3">
-          <Link>SUBSCRIBE OUR NEWSLETTER</Link>
+          <Link to="/contact" >SUBSCRIBE OUR NEWSLETTER</Link>
         </div>
 
         <div className="footer">
           <div className="start">
             {" "}
-            <Link>NEWS</Link>
+            <Link to="/contact">NEWS</Link>
           </div>
           <div className="start">
-            <Link>PRESS</Link>
+            <Link to="/contact">PRESS</Link>
           </div>
 
-         <div className="start"><Link>WORLD HOUSING</Link></div> 
-          <Link>WORLD FINEST REAL ESTATE</Link>
-          <Link>PRIVACY</Link>
-          <Link>TERMS</Link>
+         <div className="start"><Link to="/contact">WORLD HOUSING</Link></div> 
+          <Link to="/contact">WORLD FINEST REAL ESTATE</Link>
+          <Link to="/contact">PRIVACY</Link>
+          <Link to="/contact">TERMS</Link>
         </div>
       </div>
     );

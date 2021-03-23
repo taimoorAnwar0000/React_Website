@@ -34,7 +34,7 @@ class Contact extends Component {
           <h6>BEACH AVENUE VANCOUVER, BC</h6>
           <h6>V6E 1T7, CANADA</h6>
           <h6>+1 604 282 3996</h6>
-          <Link>inquiry@sprec.com</Link>
+          <Link to="/about">inquiry@sprec.com</Link>
         </div>
         <div className="contact-container6"> <h1>ADDITIONAL LOCATIONS</h1></div>
 <div className="contact-container5">
@@ -54,22 +54,22 @@ class Contact extends Component {
 
 </div>
 <div className="text3-1">
-          <Link>SUBSCRIBE OUR NEWSLETTER</Link>
+          <Link to="/contact">SUBSCRIBE OUR NEWSLETTER</Link>
         </div>
 
         <div className="footer">
           <div className="start">
             {" "}
-            <Link>NEWS</Link>
+            <Link to="/contact">NEWS</Link>
           </div>
           <div className="start">
-            <Link>PRESS</Link>
+            <Link to="/contact">PRESS</Link>
           </div>
 
-         <div className="start"><Link>WORLD HOUSING</Link></div> 
-          <Link>WORLD FINEST REAL ESTATE</Link>
-          <Link>PRIVACY</Link>
-          <Link>TERMS</Link>
+         <div className="start"><Link to="/contact">WORLD HOUSING</Link></div> 
+          <Link to="/contact">WORLD FINEST REAL ESTATE</Link>
+          <Link to="/contact">PRIVACY</Link>
+          <Link to="/contact">TERMS</Link>
         </div>
       </div>
     );

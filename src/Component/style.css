@@ -176,13 +176,11 @@ button:hover {
   display: flex;
   justify-content: center;
   align-items: center;
-
-} 
-.text3-1 a{
-
+}
+.text3-1 a {
   color: aliceblue;
 }
- 
+
 .text3-1 a:hover {
   color: blue;
 }
@@ -254,7 +252,7 @@ button:hover {
 
 .start {
   display: flex;
-  justify-content: start;
+  justify-content: flex-start;
 }
 .contact-container1 {
   width: 100%;
@@ -335,8 +333,8 @@ button:hover {
   align-items: center;
   color: aliceblue;
 
+  background-position: center;
 }
-
 
 .about-container2 {
   width: 100vw;
@@ -352,6 +350,8 @@ button:hover {
   width: 100vw;
   height: 100vh;
   background-size: cover;
+ 
+  background-position: center;
 }
 .about-container4 {
   width: 100vw;
@@ -383,39 +383,86 @@ button:hover {
   height: 100vh;
   background-size: cover;
 }
-.product-block{
-
-display: flex;
-align-items: center;
-justify-content: center;
-flex-direction: column;
-padding: 15px 10px;
-border: 1px solid lightslategray;
-
-
-
+.product-block {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  padding: 15px 10px;
+  border: 1px solid lightslategray;
 }
-.row button{
-
+.row button {
   color: aliceblue;
   background-color: black;
 }
-.navbar button{
-color: aliceblue;
-background-color: blue;
-
-
+.navbar button {
+  color: aliceblue;
+  background-color: blue;
 }
-.row img{
-
-height: 25vh;
-
+.row img {
+  height: 25vh;
 }
-.AddContainer1{
+.AddContainer1 {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+}
+@media (max-width: 700px) {
+  .navbar {
+    flex-direction: row;
+    justify-content: space-evenly;
 
+    font-size: 10px;
+    font-weight: 100 bold;
+  }
+
+  .home-hero {
+    flex-direction: column;
+  }
+  .home-hero img  {
+    padding: 50px,50px;
+  }
+
+  .world {
+    
+    padding: 50px;
+    justify-content: center;
+    flex-direction: column;
+  }
+
+  .text h6 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  padding: 50px;
+    
+  }
+  
+   .start {
+    flex-direction: row;
+    justify-content: space-evenly;
+  }
+  .text2 h1{
+    padding: 90PX;
+    font-size: 18px;
+
+
+
+  }
+  .footer a{
+
+font-size: 10px;
 display: flex;
-justify-content: center;
-flex-direction: column;
-align-items: center;
+justify-content: space-evenly;
 
+
+  }
+  .home-hero img{
+
+width: 50%;
+
+
+  }
 }

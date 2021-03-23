@@ -1,4 +1,4 @@
-import { divide } from "lodash";
+// import { divide } from "lodash";
 import React, { Component } from "react";
 import { saveMovie } from "../services/fakeMovieService";
 
@@ -21,7 +21,7 @@ class AddProduct extends Component {
 
       const {building}= this.state;
       saveMovie(building);
-      this.props.history.push('/product')
+      this.props.histcory.push('/product')
   }
   render() {
       const {building} = this.state;
